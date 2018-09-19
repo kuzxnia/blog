@@ -1,8 +1,10 @@
 ---
 layout: post
 title: O czym będzie mój blog?
+feature-img: "assets/img/pexels/hello.jpeg"
+thumbnail: "assets/img/pexels/hello.jpeg"
 tags: [pierwszy_post]
-comments: true
+comments: false
 ---
 
 Witam wszystkich `sympatyków programowania`,

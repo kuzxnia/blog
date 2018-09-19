@@ -2,22 +2,25 @@
 layout: post
 title: Nauka Linux'a od podstaw (1)
 feature-img: "assets/img/pexels/bash.png"
+thumbnail: "assets/img/pexels/bash.png"
 tags: [Linux, Unix]
+comments: true
 ---
 
+Linuxa używam właściwie od dawna. Zawsze podobała mi się możliwość personalizacji, brak ograniczeń, moc. Jednak dopiero za sprawą serialu Mr.Robot poczułem potrzebę nauczenia się płynnej obsługi terminala. Spodobało mi się. :)
 
+<div style="width:100%;height:0;padding-bottom:62%;position:relative;"><iframe src="https://giphy.com/embed/UqxVRm1IaaIGk" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
-### Tab
+### O co chodzi z tym `Tab-em`?
 
-czyli najbardziej wytarty klawisz u każdego linuxarza :). Znam jego 2 zastosowania
+**`TAB`** - czyli najbardziej wytarty klawisz u każdego linuxarza :). Znam jego 2 zastosowania
 
 1. podpowiada drugą część polecenia np. `cd ~/Doc` wciskamy `tab` i mamy `cd ~/Documents`
 2. podpowiada co możemy wpisać w 2 części polecenia np.
 
 ```bash
-$ cd D 		#w tym momencie wcistamy tab 2-krotnie
-Documents/
-Downloads/
+$ cd D 		#w tym momencie wcistamy tab 2-krotnie, i 
+Documents/		Downloads/
 ```
 
 ### Podstawowe polecenia
@@ -28,7 +31,7 @@ Downloads/
   * `cd ..` - zmienia katalog na jeden niżej
   * `cd ~/Documents` - zmienia katalog na `Documents` w katalogu głównym
 
-* `ls` (list directory) - zawartość katalogu (z przełącznikiem -a -la wyświetli ukryte pliki)
+* `ls` (list directory) - zawartość katalogu
   * `ls -a` (all) - wyświetli ukryte pliki
   * `ls -l` (long) - wyświetli w długim formacie (z pozwoleniami)
 
@@ -59,13 +62,10 @@ Oto najbardziej podstawowe z nich:
 
 ```bash
 $ ls *.{jpg,png,jpeg}
-zdjecie.jpg
-zdj.png
+zdjecie.jpg		zdj.png		zdj.jpeg
 
 $ ls index.*
-index.html
-index.js
-index.css
+index.html	index.js	index.css
 ```
 
 ### Operacje na plikach i katalogach 
@@ -86,13 +86,12 @@ $ touch plik.txt
 plik.txt
 
 $ touch plik.{txt,md}
-plik.txt
-plik.md
+plik.txt	plik.md
 ```
 
 #### Usuwanie
 
-* `rm` (remove) - usuń 
+* `rm`(remove) - usuń 
   * `rm -r`(recursive) - usunie plik/folder z zawartością (w głąb)
   * `rm -i` - zapyta przed usunięciem pliku
   * `rm -d` - usunie puste katalogi
@@ -103,7 +102,7 @@ $ rm -r plik
 $ rm -d katalog/
 ```
 
-* `rmdir` (remove directory) - usuń katalog
+* `rmdir`(remove directory) - usuń katalog
 
   jeśli usuwany folder nie będzie pusty dostaniemy error
 
@@ -113,12 +112,21 @@ $ rmdir katalog/
 
 #### Przenoszenie/Kopiowanie
 
-* `cp` - skopiuj
-* `mv` - przenieś
+* `cp`(copy) - skopiuj
+* `mv`(move/rename) - przenieś lub zmień nazwę
+
+```bash
+$ cp pic.jpg pic2.jpg	#stworzy kopię pliku pic.jpg
+$ cp pic.jpg home/Pictures/pic.jpg		#stworzy kopię o nazwie pic.jpg w katalogu Pictures
+$ mv pic.jpg home/Pictures/	#przeniesie plik do katalogu Pictures/
+$ mv pic.jpg picture.jpg	#zmieni nazwę pliku
+```
+
+
 
 #### Łączenie
 
-* `cat` - łączenie plików (wyświetli wynik na ekran, aby zapisać należy przekierować do pliku np. `> plik.txt`)
+* `cat`(concatenate) - łączenie plików (wyświetli wynik na ekran, aby zapisać należy przekierować do pliku np. `> plik.txt`)
 
 ```bash
 cat plik.txt plik2.txt > nowy_plik.txt
@@ -126,7 +134,7 @@ cat plik.txt plik2.txt > nowy_plik.txt
 
 #### Procesy
 
-* `ps` - pokaż procesy
+* `ps` (process status)- pokaż procesy
   * `ps -f` (full) -pełne informacje o procesie
   * `ps -e` (every) -wszystkie procesy
   * `ps -ef` - połączenie dwóch powyższych 
@@ -203,32 +211,35 @@ kilka przykładów powinno rozjaśnić
 ```bash
 $ grep '^[0-9]' plik*
 $ grep '[eE]$' plik*
-$ grep '\$' Pictures/* 	<- znaku '/' znakiem 'zabiera mu funkcję' tzn. wyszukujemy tego znaku
+$ grep '\$' Pictures/* 	#znaku '/' znakiem 'zabiera mu funkcję' tzn. wyszukujemy tego znaku
 ```
 
 ### Strumienie
 
 Umożliwiają nam przekierowanie wyniku polecenia.
 
-` polecenie > plik` - przeadresowanie std wyjścia - wynika polecenia zostanie wysłany do pliku ( zostanie utworzony nowy plik o tej nazwie lub plik zostanie nadpisany)
+* `polecenie > plik` - przeadresowanie std wyjścia - wynika polecenia zostanie wysłany do pliku ( zostanie utworzony nowy plik o tej nazwie lub plik zostanie nadpisany) np. `history > plik.txt`
 
-`polecenie >> plik` - jak wyżej z tą różnicą, że jeśli plik istnieje to wynik polecenia zostanie dopisany na końcu pliku
+* `polecenie >> plik` - jak wyżej z tą różnicą, że jeśli plik istnieje to wynik polecenia zostanie dopisany na końcu pliku
+
+* `polecenie < plik` - przekierowanie zawartości pliku do standardowego wyjścia 
 
 ### Potoki
 
 Pozwalają łączyć polecenia.
 
 ```bash
-$ history | head -5 > pierwsze_polecenia.txt	<- o poleceniach history, head niżej
+$ history | head -5 > pierwsze_polecenia.txt	#o poleceniach history, head niżej
 $ history | grep ls > head >> ls.txt
 ```
 
-### Ciekawostki
+### Inne przydatne polecenia
 
+* `man` - pokazuje pomoc dla polecenia np. `man ps`
 * `head i tail` - pokaż linie od początku/końca (można skorzystać z wzorców uogólniających)
 
 ```bash
-$ head -20 pan_tadeusz.txt 	<- '-20' oznacza liczbę lini od początku do wyświetlenia
+$ head -20 pan_tadeusz.txt 	#'-20' oznacza liczbę lini od początku do wyświetlenia
 $ tail -15 pan_tadeusz.txt
 $ head -12 plik[12].txt
 ```
@@ -247,7 +258,10 @@ $ tree
 $ tree pod_katalog/
 ```
 
-więcej o tym narzędziu poczytasz tutaj:
+więcej o tym narzędziu poczytasz tutaj: https://www.geeksforgeeks.org/tree-command-unixlinux/
 
-* `git` - rozproszony system kontroli wersji 
+* `git` - rozproszony system kontroli wersji używany do wersjonowania kodu. Jest to bardzo rozbudowane narzędzie, można go używać zarówno przez terminal jak i programem okienkowym (np. SmartGit). Nie długo pojawi się wpis o tym narzędziu.
 
+
+
+Mam nadzieję, że nieco rozjaśniłem Ci jak działa konsola linux'a. Niedługo pojawi się kolejna część. Tym razem o instalowaniu pakietów, narzędzi, programów i troszeczkę o dostosowaniu środowiska pod własne preferencje.
