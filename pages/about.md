@@ -12,4 +12,4 @@ Cześć,
 
 nazywam się Kacper Kuźniarski i jestem 20 letnim pasjonatem programowania. Studiuję informatykę na Politechnice Lubelskiej i staram się rozpocząć karierę jako programista. Mam bzika na punkcie 'czystego kodu' i skryptów automatyzujących.
 
-Prywatnie interesuje się czasomierzami i nie wyobrażam sobie życia bez piwa rzemieślniczego i takiej jednej Sylwii.  :kissing_heart:
+Prywatnie interesuje się czasomierzami i nie wyobrażam sobie życia bez piwa rzemieślniczego i takiej jednej Sylwii.  

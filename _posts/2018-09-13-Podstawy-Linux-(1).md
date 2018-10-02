@@ -62,10 +62,10 @@ Oto najbardziej podstawowe z nich:
 
 ```bash
 $ ls *.{jpg,png,jpeg}
-zdjecie.jpg		zdj.png		zdj.jpeg
+zdjecie.jpg     zdj.png     zdj.jpeg
 
 $ ls index.*
-index.html	index.js	index.css
+index.html      index.js      index.css
 ```
 
 ### Operacje na plikach i katalogach 
