@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Nauka Linux'a od podstaw (1)
-feature-img: "assets/img/pexels/bash.png"
-thumbnail: "assets/img/pexels/bash.png"
+feature-img: "assets/img/bash.png"
+thumbnail: "assets/img/bash.png"
 tags: [Linux, Unix]
 comments: true
 ---

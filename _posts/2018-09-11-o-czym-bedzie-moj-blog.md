@@ -1,8 +1,8 @@
 ---
 layout: post
 title: O czym będzie mój blog?
-feature-img: "assets/img/pexels/hello.jpeg"
-thumbnail: "assets/img/pexels/hello.jpeg"
+feature-img: "assets/img/hello.jpeg"
+thumbnail: "assets/img/hello.jpeg"
 tags: [pierwszy_post]
 comments: false
 ---

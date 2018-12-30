@@ -1,22 +1,22 @@
 # SITE CONFIGURATION
 baseurl: "/blog"
 url: "https://kuzxnia.github.io"
-title: Kacper Kuźniarski # site's title
+title: Notes # site's title
 description: "Blog programistyczny" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Kacper Kuźniarski # blog's title
+  title: Strona Główna # blog's title
   avatar: ""
   favicon: ""
   gravatar: 8c0d0f9385cb2a3799da79f3c1c5770f
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <h1><code>Blog Programistyczny</code></h1>
-  header_text_feature_image: assets/img/pexels/triangular.jpeg
+     <h1><code>Notatnik</code></h1>
+  header_text_feature_image: assets/img/triangular.jpeg
   footer_text: Copyright © Kacper Kuźniarski
 
   # Icons

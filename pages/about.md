@@ -2,7 +2,7 @@
 layout: page
 title: O mnie
 permalink: /about/
-feature-img: "assets/img/pexels/computer.jpeg"
+feature-img: "assets/img/computer.jpeg"
 tags: [O-mnie, Archiwum]
 ---
 

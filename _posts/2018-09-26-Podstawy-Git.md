@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Nauka Git' z poziomu terminala
-feature-img: "assets/img/pexels/commit.jpeg"
-thumbnail: "assets/img/pexels/commit.jpeg"
+feature-img: "assets/img/commit.jpeg"
+thumbnail: "assets/img/commit.jpeg"
 tags: [Linux, Git]
 comments: true
 ---

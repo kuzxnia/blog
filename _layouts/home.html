@@ -1,6 +1,6 @@
 ---
 layout: default
-feature-img: "assets/img/front.jpg"
+feature-img: "assets/img/triangular.jpeg"
 ---
 
 <div class="home">
@@ -28,6 +28,8 @@ feature-img: "assets/img/front.jpg"
             </h1>
             <p class="meta">
               {{ post.date | date: "%B %-d, %Y" }}
+
+              {% include read-time.html content=post.content %}
             </p>
           </header>
           <div class="excerpt">
