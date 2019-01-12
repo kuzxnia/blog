@@ -70,12 +70,12 @@ moja_nazwa
     * `git status -sb` - czytelniejsza forma
 
 
-![linux_status]({{ site.baseurl }}/assets/img/pexels/linux/linux_status.png)
+![linux_status]({{ site.baseurl }}/assets/img/linux/linux_status.png)
 
 * `git log` - pokazuje listę commitów
     * `git log --oneline` - czytelniejsza forma
 
-![linux_status]({{ site.baseurl }}/assets/img/pexels/linux/linux_log.png)
+![linux_status]({{ site.baseurl }}/assets/img/linux/linux_log.png)
 
 * `git clean` - czyszczenie nieśledzonych plików i pustych folderów
   * `git clean -n` - wypisze co usunie
@@ -85,7 +85,7 @@ moja_nazwa
   * `git reset --hard` - cofa commit, i usuwa trwale poczynione zmiany
 * `git revert` - tworzy commit cofający zmianę
 
-![linux_status]({{ site.baseurl }}/assets/img/pexels/linux/linux_revert.png)
+![linux_status]({{ site.baseurl }}/assets/img/linux/linux_revert.png)
 
 * `git rm <nazwa_pliku>` - jest to właściwie odwrotność `git add`, mianowicie polecenie wyłącza śledzenie pliku (nie będzie go w repozytorium)
 
@@ -116,7 +116,7 @@ Jako, że samo scalanie branch'y nie jest skomplikowane, o tyle rozwiązywanie k
 
 następnie mamy konflikt o czym informuje nas monit w terminalu 
 
-  ![linux_status]({{ site.baseurl }}/assets/img/pexels/linux/linux_merge_monit.png)
+  ![linux_status]({{ site.baseurl }}/assets/img/linux/linux_merge_monit.png)
 
 do rozwiązania używamy narzędzia tzw. `mergetool` w moim przypadku jest to plugin w Intellij IDEA, ale jest dużo podobnych. [poradnik](https://gist.github.com/karenyyng/f19ff75c60f18b4b8149)
 
@@ -124,15 +124,15 @@ do rozwiązania używamy narzędzia tzw. `mergetool` w moim przypadku jest to pl
 
 Zaczynamy od otwarcia pliku z konfliktem, po czym klikamy PPM i `resolve conflict` wybieramy konflikt, w tym przypadku mamy jeden (jeśli było więcej plików edytowanych może być więcej)
 
-  ![linux_status]({{ site.baseurl }}/assets/img/pexels/linux/linux_merge_c1.png)
+  ![linux_status]({{ site.baseurl }}/assets/img/linux/linux_merge_c1.png)
 
 Ukazuje sie nam następujące okno, musimy wybrać kod z którego brancha jest poprawny, możemy to zrobić poprzez kliknięcie zielonej strzałki.
 
-  ![linux_status]({{ site.baseurl }}/assets/img/pexels/linux/linux_merge_c2.png)
+  ![linux_status]({{ site.baseurl }}/assets/img/linux/linux_merge_c2.png)
 
  Po wybraniu otrzymujemy coś takiego, pozostał nam jedynie commit dokumentujący merge.
 
-  ![linux_status]({{ site.baseurl }}/assets/img/pexels/linux/linux_merge_c3.png)
+  ![linux_status]({{ site.baseurl }}/assets/img/linux/linux_merge_c3.png)
 
 Oczywiście konflikty mogą być inne. Czasami występują sytuacje, w których bez ręcznej edycji pliku się nie obejdzie, ale zakaładam, że wiesz już jak to zrobić.
 
