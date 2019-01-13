@@ -9,7 +9,7 @@ tags: [cele-i-zamiary, Archiwum]
 ### Książki które czytam
 
 * Python zaawansowany Luciano Ramalho (62/756 ~ 8%) 
-* Jak wygrać każde Negocjacje Robert Mayer (64/332 ~ 20%)
+* Jak wygrać każde Negocjacje Robert Mayer (80/332 ~ 24%)
 * Zrozumieć programowanie (44/763 ~ 6%) 
 * Twój mózg w działaniu David Rock (60/184 ~ 32%)
 
@@ -39,15 +39,16 @@ tags: [cele-i-zamiary, Archiwum]
   2. Przerobić 4 lekcje
   3. Przerobić 9 lekcje
 
-### Gotowanie (3/10)
+### Gotowanie (4/10)
 
 1. Przerobić 10 przepisów
 2. Przerobić 50 przepisów 
 3. Przerobić 100 przepisów 
 
-### Polskie miasta (0/5)
-1. Odwiedzić 5 polskich lokacji
-2. Odwiedzić 10 polskich lokacji
+### Polskie miasta (0/1)
+1. Odwiedzić 1 polską lokację
+2. Odwiedzić 5 polskich lokacji
+3. Odwiedzić 10 polskich lokacji
 
 ### Kustosz (0/20)
 1. Odwiedzić 1 muzeum
@@ -60,11 +61,11 @@ tags: [cele-i-zamiary, Archiwum]
 3. Pójść 12 razy do teatru
 
 ### Kino (1/5)
-1. ~~Pójść 1 razy do kina~~
+1. ~~Pójść 1 razy do kina~~ 
 2. Pójść 5 razy do kina
 3. Pójść 12 razy do kina
 
-### Ciało (1/15)
+### Ciało (2/15)
 1. Wykonać 15 treningów
 2. Wykonać 75 treningów
 3. Wykonać 150 treningów
