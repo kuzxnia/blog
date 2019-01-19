@@ -6,7 +6,7 @@ feature-img: "assets/img/computer.jpeg"
 tags: [O-mnie, Archiwum]
 ---
 
-<iframe src="https://giphy.com/embed/QOgz8rfkvVeEZETUbp" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<div style="width:100%;height:0;padding-bottom:68%;position:relative;"><iframe src="https://giphy.com/embed/QOgz8rfkvVeEZETUbp" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
 Cześć,
 
