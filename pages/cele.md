@@ -8,8 +8,8 @@ tags: [cele-i-zamiary, Archiwum]
 
 ### Książki które czytam
 
-* Python zaawansowany Luciano Ramalho (62/756 ~ 8%) 
-* Jak wygrać każde Negocjacje Robert Mayer (80/332 ~ 24%)
+* Python zaawansowany Luciano Ramalho (80/756 ~ 10%) 
+* Jak wygrać każde Negocjacje Robert Mayer (116/332 ~ 50%)
 * Zrozumieć programowanie (44/763 ~ 6%) 
 * Twój mózg w działaniu David Rock (60/184 ~ 32%)
 
@@ -30,7 +30,7 @@ tags: [cele-i-zamiary, Archiwum]
 
 ### inglisz is izi nglisz is qul
 
-* Podcasty (2/10)
+* Podcasty (4/10)
   1. Przesłuchać 10 podcastów
   2. Przesłuchać 50 podcastów
   3. Przesłuchać 100 podcastów
@@ -65,7 +65,7 @@ tags: [cele-i-zamiary, Archiwum]
 2. Pójść 5 razy do kina
 3. Pójść 12 razy do kina
 
-### Ciało (2/15)
+### Ciało (4/15)
 1. Wykonać 15 treningów
 2. Wykonać 75 treningów
 3. Wykonać 150 treningów

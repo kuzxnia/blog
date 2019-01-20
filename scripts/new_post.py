@@ -16,7 +16,7 @@ def get_filename(name, date):
 
 
 def log_function_triggering(path):
-    log = 'Nie podano parametrów wejściowych\n'
+    log = 'Nie podano parametrów wejściowych!\nKopie robocze: '
     for (dirpath, dirnames, filenames) in os.walk(os.path.join(dirname, '../_drafts/')):
         log += '  '.join(filenames)
     print(log + '\nPrzykład wywołania funkcji\n./new_post tools nazwa-nowego-pliku 2018-02-03')
